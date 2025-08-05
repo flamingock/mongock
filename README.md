@@ -8,7 +8,7 @@
 
 ## Meet Flamingock 🚀
 
-We are the original authors of Mongock. Over the past couple of years, we've been heads‑down building **[Flamingock](https://github.com/flamingock/flamingock-project)**
+We are the original authors of Mongock. Over the past couple of years, we've been heads‑down building **[Flamingock](https://github.com/flamingock/flamingock-java)**
 — a platform inspired by what worked in Mongock, but with a much broader scope: **auditable changes that evolve across your systems for any integrations**. (A managed cloud offering is also in the works.)
 
 - Robust support for MongoDB and NoSQL migrations, covering everything previously offered by Mongock
@@ -23,7 +23,7 @@ We are the original authors of Mongock. Over the past couple of years, we've bee
 
 > Same creators. Broader scope. Better foundations.
 
-👉 **Start here:** [Flamingock repository](https://github.com/flamingock/flamingock-project)
+👉 **Start here:** [Flamingock repository](https://github.com/flamingock/flamingock-java)
 
 ---
 
