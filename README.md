@@ -1,45 +1,86 @@
-# ⚠️ Mongock is deprecated
+<p align="center" >
+    <img src="https://raw.githubusercontent.com/mongock/mongock/master/misc/logo-with-title.png" width="100%" />
+</p>
+<h3 align="center" style="vertical-align: top;">
+Lightweight Java based migration tool
+</h4>
+<br />
+<p align="center" >
 
-**Status:** This project is no longer maintained (as of 2025-08-01). Our efforts have moved to Flamingock - which supports all existing Mongock features and expands its vision to manage Changes for any component - not just databases.
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.mongock/mongock/badge.png)](https://search.maven.org/artifact/io.mongock/mongock)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5f9459fc702a4ee389071f77cec97a38)](https://app.codacy.com/gh/mongock/mongock?utm_source=github.com&utm_medium=referral&utm_content=mongock/mongock&utm_campaign=Badge_Grade)
+![Build](https://github.com/mongock/mongock/workflows/Build/badge.svg)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/dieppa/mongock/blob/master/LICENSE)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=com.github.cloudyrock.mongock&metric=bugs)](https://sonarcloud.io/component_measures?id=com.github.cloudyrock.mongock&metric=bugs)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=com.github.cloudyrock.mongock&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=com.github.cloudyrock.mongock&metric=vulnerabilities)
 
-> For future-proof projects, we recommend transitioning to [Flamingock](https://github.com/flamingock/flamingock-java).
+    
+**Mongock** is a Java based migration tool as part of your application code. It allows developers to have ownership and control over data migrations during the deployment process, allowing safer migrations in distributed systems as code and data changes are shipped together.
 
----
+## Documentation
+The official documentation is [here][documentation_link], where you can find everything rom version 3.
 
-## Meet Flamingock 🚀
+## Professional support 🚀
+Mongock professional is the extension of the Mongock open source project. This provides some additional advantages such as:
 
+<<<<<<< Updated upstream
 We are the original authors of Mongock. Over the past couple of years, we've been heads‑down building **[Flamingock](https://github.com/flamingock/flamingock-java)**
 — a platform inspired by what worked in Mongock, but with a much broader scope: **auditable changes that evolve across your systems for any integrations**. (A managed cloud offering is also in the works.)
+=======
+- Advanced features exclusive to the Professional version.
+- New community features are available and released to the professional version as well.
+- Professional support for the tool usage is backed by Mongock Ltd, providing your business with additional help and responses.
+>>>>>>> Stashed changes
 
-- Robust support for MongoDB and NoSQL migrations, covering everything previously offered by Mongock
-- Extends beyond databases to orchestrate changes across any component type (message queues, APIs, databases, feature flags, and more)
-- Designed **from the ground up with auditability, determinism, and governance at its core**
+Visit this [link](https://docs.mongock.io/v5/professional/setup.html) to get started.
 
-### More highlights
-- Flexible/low‑code templates for defining changes
-- Native GraalVM support
-- Advanced multi-stage workflows
-- …and more in the docs → [Features overview](https://docs.flamingock.io/docs/overview/key-features)
+## Examples
+[Mongock examples](https://github.com/mongock/mongock-examples)
 
-> Same creators. Broader scope. Better foundations.
+## Stay tuned
+To be updated with the latest releases, notifications and news, follow us on [twitter](https://twitter.com/MongockTeam) 😉
+    
+## Questions
+Before rasing a question, please check it hasn't been alerady answered in
+1. [Our FAQ section](https://docs.mongock.io/v5/FAQ/index.html)
+2. [Github Q&A section](https://github.com/mongock/mongock/discussions/categories/q-a)
+3. [Stackoverflow](https://stackoverflow.com/search?q=mongock)
+4. [Gitter channel](https://gitter.im/mongock/community)
+    
+If you cannot find the answer you are looking for, feel free to raise a new question in our [Gitter channel](https://gitter.im/mongock/community) or [Q&A section](https://github.com/mongock/mongock/discussions/categories/q-a)
 
-👉 **Start here:** [Flamingock repository](https://github.com/flamingock/flamingock-java)
+## Issues
 
----
+To raise a new issue, please take a look to [this guide](https://docs.mongock.io/v5/contributing/index.html)
 
-## Why the change?
+## Changelog
+To see our changelog, please take a look to  our [github releases][github_releases]
 
-Mongock helped teams evolve NoSQL databases with confidence.  
-But in real-world systems, evolution doesn't stop at databases — it extends to message schemas, APIs, configurations, feature flags, and compliance rules.
+## Older versions support
+With new major releases we stop enhancing or adding new features to older version(like version 3 or 4). However, we'll keep providing support and bug fixes for a long period. We are working on an official support plan.
 
-**Flamingock was built to support that full spectrum from day one.**  
-It’s not a direct continuation of Mongock, but a new platform that also does everything Mongock did — and much more.
 
----
+## Code of conduct
+Please read the [code of conduct][codeOfConduct] for details on our code of conduct.
 
-## What about existing Mongock users?
+## LICENSE
+Mongock project is licensed under the [Apache License Version 2.0][apacheLicense]. See the [LICENSE][mongockLicense] file for details
+    
+## Contributing
+:tada: First off, thanks for taking the time to contribute! :tada:
+    
+If you would like to contribute to the Mongock project, visit our [official documentation](https://docs.mongock.io/v5/contributing/index.html)
+    
+    
+<a href="https://github.com/mongock/mongock/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mongock/mongock" />
+</a>
 
-- Your current versions will keep working as-is - though we encourage to upgrade to benefit from managing changes across components broader than NoSQL.
-- We strongly recommend evaluating Flamingock for new projects or when planning significant changes.
-- Flamingock introduces a different architecture, but we’ve made it easy to transition when you're ready.
-- Follow our step by step guideline to help you upgrade: see **[How to move from Mongock to Flamingock](https://docs.flamingock.io/docs/resources/upgrade-from-mongock)**
+    
+
+[codeOfConduct]: ./CODE_OF_CONDUCT.md
+[mongockLicense]: ./LICENSE.md
+
+[apacheLicense]: http://www.apache.org/licenses/LICENSE-2.0.html
+[documentation_link]: https://docs.mongock.io/
+[github_releases]: https://github.com/mongock/mongock/releases
