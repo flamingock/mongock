@@ -23,14 +23,9 @@ The official documentation is [here][documentation_link], where you can find eve
 ## Professional support 🚀
 Mongock professional is the extension of the Mongock open source project. This provides some additional advantages such as:
 
-<<<<<<< Updated upstream
-We are the original authors of Mongock. Over the past couple of years, we've been heads‑down building **[Flamingock](https://github.com/flamingock/flamingock-java)**
-— a platform inspired by what worked in Mongock, but with a much broader scope: **auditable changes that evolve across your systems for any integrations**. (A managed cloud offering is also in the works.)
-=======
 - Advanced features exclusive to the Professional version.
 - New community features are available and released to the professional version as well.
 - Professional support for the tool usage is backed by Mongock Ltd, providing your business with additional help and responses.
->>>>>>> Stashed changes
 
 Visit this [link](https://docs.mongock.io/v5/professional/setup.html) to get started.
 
