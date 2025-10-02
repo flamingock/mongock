@@ -1,5 +1,5 @@
 <p align="center" >
-    <img src="https://raw.githubusercontent.com/mongock/mongock/master/misc/logo-with-title.png" width="100%" />
+    <img src="https://raw.githubusercontent.com/flamingock/mongock/master/misc/logo-with-title.png" width="100%" />
 </p>
 <h3 align="center" style="vertical-align: top;">
 Lightweight Java based migration tool
@@ -9,7 +9,7 @@ Lightweight Java based migration tool
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.mongock/mongock/badge.png)](https://search.maven.org/artifact/io.mongock/mongock)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5f9459fc702a4ee389071f77cec97a38)](https://app.codacy.com/gh/mongock/mongock?utm_source=github.com&utm_medium=referral&utm_content=mongock/mongock&utm_campaign=Badge_Grade)
-![Build](https://github.com/mongock/mongock/workflows/Build/badge.svg)
+![Build](https://github.com/flamingock/mongock/workflows/Build/badge.svg)
 [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/dieppa/mongock/blob/master/LICENSE)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=com.github.cloudyrock.mongock&metric=bugs)](https://sonarcloud.io/component_measures?id=com.github.cloudyrock.mongock&metric=bugs)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=com.github.cloudyrock.mongock&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=com.github.cloudyrock.mongock&metric=vulnerabilities)
@@ -38,11 +38,11 @@ To be updated with the latest releases, notifications and news, follow us on [tw
 ## Questions
 Before rasing a question, please check it hasn't been alerady answered in
 1. [Our FAQ section](https://docs.mongock.io/v5/FAQ/index.html)
-2. [Github Q&A section](https://github.com/mongock/mongock/discussions/categories/q-a)
+2. [Github Q&A section](https://github.com/flamingock/mongock/discussions/categories/q-a)
 3. [Stackoverflow](https://stackoverflow.com/search?q=mongock)
 4. [Gitter channel](https://gitter.im/mongock/community)
     
-If you cannot find the answer you are looking for, feel free to raise a new question in our [Gitter channel](https://gitter.im/mongock/community) or [Q&A section](https://github.com/mongock/mongock/discussions/categories/q-a)
+If you cannot find the answer you are looking for, feel free to raise a new question in our [Gitter channel](https://gitter.im/mongock/community) or [Q&A section](https://github.com/flamingock/mongock/discussions/categories/q-a)
 
 ## Issues
 
@@ -67,7 +67,7 @@ Mongock project is licensed under the [Apache License Version 2.0][apacheLicense
 If you would like to contribute to the Mongock project, visit our [official documentation](https://docs.mongock.io/v5/contributing/index.html)
     
     
-<a href="https://github.com/mongock/mongock/graphs/contributors">
+<a href="https://github.com/flamingock/mongock/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=mongock/mongock" />
 </a>
 
@@ -78,4 +78,4 @@ If you would like to contribute to the Mongock project, visit our [official docu
 
 [apacheLicense]: http://www.apache.org/licenses/LICENSE-2.0.html
 [documentation_link]: https://docs.mongock.io/
-[github_releases]: https://github.com/mongock/mongock/releases
+[github_releases]: https://github.com/flamingock/mongock/releases
