@@ -8,7 +8,7 @@ No new features will be added. Critical security fixes may be considered on a be
 
 ## What’s next?
 
-**Flamingock** is a new platform, influenced by Mongock but **not a continuation of it**.  
+**Flamingock** is a new solution, influenced by Mongock but **not a continuation of it**.  
 It **covers everything you used Mongock for** (e.g., MongoDB/NoSQL changes with execution tracking and audit) **and goes well beyond databases**.
 
 - Start here: **[Flamingock repo](https://github.com/flamingock/flamingock-project)**
@@ -33,7 +33,7 @@ Flamingock was designed from day one for that broader scope with stronger govern
 ## FAQ
 
 **Is Flamingock a drop-in replacement?**  
-No. It’s a **new platform**, not a continuation. It **covers Mongock’s use cases** and adds much more. See the migration guide for steps.
+No. It’s a **new solution**, not a continuation. It **covers Mongock’s use cases** and adds much more. See the migration guide for steps.
 
 **Will my Mongock projects break?**  
 No changes are planned. Existing versions run as-is. The risk is lack of new features/fixes beyond the support window.
