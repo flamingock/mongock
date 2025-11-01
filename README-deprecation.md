@@ -5,7 +5,6 @@ No new features will be added. Critical security fixes may be considered on a be
 
 👉 For future-proof projects, evaluate **[Flamingock](https://github.com/flamingock/flamingock-project)**.
 
----
 
 ## What’s next?
 
@@ -15,14 +14,10 @@ It **covers everything you used Mongock for** (e.g., MongoDB/NoSQL changes with 
 - Start here: **[Flamingock repo](https://github.com/flamingock/flamingock-project)**
 - Migration: **[Coming from Mongock → Flamingock](https://docs.flamingock.io/docs/resources/coming-from-mongock)**
 
----
-
 ## Why deprecate Mongock?
 
 Mongock focused on NoSQL/database evolution. Real-world change management spans **schemas, APIs, configs, queues, and more**.  
 Flamingock was designed from day one for that broader scope with stronger governance and audit foundations.
-
----
 
 ## What about existing users?
 
@@ -30,14 +25,10 @@ Flamingock was designed from day one for that broader scope with stronger govern
 - For new work or significant refactors, we recommend adopting Flamingock.
 - See the migration guide for a practical path: **[Migration guide](https://docs.flamingock.io/docs/resources/coming-from-mongock)**
 
----
-
 ## Support window
 
 - **Maintenance mode:** through **2025-12-31** (critical security fixes only, best-effort).
 - **Repository & docs:** remain available as an archive for reference.
-
----
 
 ## FAQ
 
