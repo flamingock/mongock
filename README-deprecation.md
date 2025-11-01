@@ -1,9 +1,9 @@
 # ⚠️ Mongock is Deprecated
 
 **Status:** This project is no longer maintained (effective 2025-08-01).  
-No new features will be added. Critical security fixes may be considered on a best-effort basis until **2025-12-31**.
+No new features will be added. Critical security fixes may be considered on a best-effort basis until **2026-05-31**.
 
-👉 For future-proof projects, evaluate **[Flamingock](https://github.com/flamingock/flamingock-project)**.
+👉 For future-proof projects, evaluate **[Flamingock](https://github.com/flamingock/flamingock-java)**.
 
 
 ## What’s next?
@@ -12,7 +12,7 @@ No new features will be added. Critical security fixes may be considered on a be
 It **covers everything you used Mongock for** (e.g., MongoDB/NoSQL changes with execution tracking and audit) **and goes well beyond databases**.
 
 - Start here: **[Flamingock repo](https://github.com/flamingock/flamingock-project)**
-- Migration: **[Coming from Mongock → Flamingock](https://docs.flamingock.io/docs/resources/coming-from-mongock)**
+- Migration: **[Coming from Mongock → Flamingock](https://docs.flamingock.io/resources/coming-from-mongock)**
 
 ## Why deprecate Mongock?
 
@@ -23,7 +23,7 @@ Flamingock was designed from day one for that broader scope with stronger govern
 
 - Your current Mongock versions continue to run as-is.
 - For new work or significant refactors, we recommend adopting Flamingock.
-- See the migration guide for a practical path: **[Migration guide](https://docs.flamingock.io/docs/resources/coming-from-mongock)**
+- See the migration guide for a practical path: **[Migration guide](https://docs.flamingock.io/resources/coming-from-mongock)**
 
 ## Support window
 
@@ -39,4 +39,4 @@ No. It’s a **new platform**, not a continuation. It **covers Mongock’s use c
 No changes are planned. Existing versions run as-is. The risk is lack of new features/fixes beyond the support window.
 
 **Where can I get help migrating?**  
-Start with the guide: **[Coming from Mongock](https://docs.flamingock.io/docs/resources/coming-from-mongock)**. For complex cases, open a discussion in the Flamingock repo.
+Start with the guide: **[Coming from Mongock](https://docs.flamingock.io/resources/coming-from-mongock)**. For complex cases, open a discussion in the Flamingock repo.
