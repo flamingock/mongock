@@ -1,45 +1,51 @@
-# ⚠️ Mongock is deprecated
+# ⚠️ Mongock is Deprecated
 
-**Status:** This project is no longer maintained (as of 2025-08-01). Our efforts have moved to Flamingock - which supports all existing Mongock features and expands its vision to manage Changes for any component - not just databases.
+**Status:** This project is no longer maintained (effective 2025-08-01).  
+No new features will be added. Critical security fixes may be considered on a best-effort basis until **2025-12-31**.
 
-> For future-proof projects, we recommend transitioning to [Flamingock](https://github.com/flamingock/flamingock-java).
-
----
-
-## Meet Flamingock 🚀
-
-We are the original authors of Mongock. Over the past couple of years, we've been heads‑down building **[Flamingock](https://github.com/flamingock/flamingock-project)**
-— a platform inspired by what worked in Mongock, but with a much broader scope: **auditable changes that evolve across your systems for any integrations**. (A managed cloud offering is also in the works.)
-
-- Robust support for MongoDB and NoSQL migrations, covering everything previously offered by Mongock
-- Extends beyond databases to orchestrate changes across any component type (message queues, APIs, databases, feature flags, and more)
-- Designed **from the ground up with auditability, determinism, and governance at its core**
-
-### More highlights
-- Flexible/low‑code templates for defining changes
-- Native GraalVM support
-- Advanced multi-stage workflows
-- …and more in the docs → [Features overview](https://docs.flamingock.io/docs/overview/key-features)
-
-> Same creators. Broader scope. Better foundations.
-
-👉 **Start here:** [Flamingock repository](https://github.com/flamingock/flamingock-java)
+👉 For future-proof projects, evaluate **[Flamingock](https://github.com/flamingock/flamingock-project)**.
 
 ---
 
-## Why the change?
+## What’s next?
 
-Mongock helped teams evolve NoSQL databases with confidence.  
-But in real-world systems, evolution doesn't stop at databases — it extends to message schemas, APIs, configurations, feature flags, and compliance rules.
+**Flamingock** is a new platform, influenced by Mongock but **not a continuation of it**.  
+It **covers everything you used Mongock for** (e.g., MongoDB/NoSQL changes with execution tracking and audit) **and goes well beyond databases**.
 
-**Flamingock was built to support that full spectrum from day one.**  
-It’s not a direct continuation of Mongock, but a new platform that also does everything Mongock did — and much more.
+- Start here: **[Flamingock repo](https://github.com/flamingock/flamingock-project)**
+- Migration: **[Coming from Mongock → Flamingock](https://docs.flamingock.io/docs/resources/coming-from-mongock)**
 
 ---
 
-## What about existing Mongock users?
+## Why deprecate Mongock?
 
-- Your current versions will keep working as-is - though we encourage to upgrade to benefit from managing changes across components broader than NoSQL.
-- We strongly recommend evaluating Flamingock for new projects or when planning significant changes.
-- Flamingock introduces a different architecture, but we’ve made it easy to transition when you're ready.
-- Follow our step by step guideline to help you upgrade: see **[How to move from Mongock to Flamingock](https://docs.flamingock.io/docs/resources/upgrade-from-mongock)**
+Mongock focused on NoSQL/database evolution. Real-world change management spans **schemas, APIs, configs, queues, and more**.  
+Flamingock was designed from day one for that broader scope with stronger governance and audit foundations.
+
+---
+
+## What about existing users?
+
+- Your current Mongock versions continue to run as-is.
+- For new work or significant refactors, we recommend adopting Flamingock.
+- See the migration guide for a practical path: **[Migration guide](https://docs.flamingock.io/docs/resources/coming-from-mongock)**
+
+---
+
+## Support window
+
+- **Maintenance mode:** through **2025-12-31** (critical security fixes only, best-effort).
+- **Repository & docs:** remain available as an archive for reference.
+
+---
+
+## FAQ
+
+**Is Flamingock a drop-in replacement?**  
+No. It’s a **new platform**, not a continuation. It **covers Mongock’s use cases** and adds much more. See the migration guide for steps.
+
+**Will my Mongock projects break?**  
+No changes are planned. Existing versions run as-is. The risk is lack of new features/fixes beyond the support window.
+
+**Where can I get help migrating?**  
+Start with the guide: **[Coming from Mongock](https://docs.flamingock.io/docs/resources/coming-from-mongock)**. For complex cases, open a discussion in the Flamingock repo.
