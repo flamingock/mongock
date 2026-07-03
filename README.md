@@ -33,7 +33,7 @@ Over the past couple of years, we have been building **[Flamingock](https://gith
 
 Mongock helped teams evolve NoSQL databases safely. But real-world systems rarely evolve in one place only. Database migrations are still important, but modern applications often require coordinated changes across services, infrastructure, events, APIs, configuration, feature flags, and operational rules.
 
-Flamingock was built to support that broader model from day one: **auditable, deterministic evolution across your entire system**.
+> Flamingock was built to support that broader model from day one: **auditable, deterministic evolution across your entire system**.
 
 It is not a drop-in continuation of Mongock. It is a new platform, built by the same team, carrying forward Mongock’s core migration ideas while expanding them into system-wide change orchestration.
 
