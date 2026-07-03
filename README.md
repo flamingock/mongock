@@ -1,40 +1,52 @@
 # ⚠️ Mongock is Deprecated
-
-**Status:** This project is no longer maintained (as of 2026-07-01).  
+**Status:**: Mongock is no longer actively maintained as of **2026-07-01**.
 No new features will be added. Critical security fixes may be considered on a best-effort basis only.
 
-> For future-proof projects, we recommend transitioning to [Flamingock](https://github.com/flamingock/flamingock-java).
+Existing Mongock versions will continue to work as they do today, but we recommend using **[Flamingock](https://github.com/flamingock/flamingock-java)** for new projects and future development.
 
 ---
 
 ## Meet Flamingock 🚀
+We are the original authors of Mongock. Over the past couple of years, we have been building **[Flamingock](https://github.com/flamingock/flamingock-java)**: a new platform inspired by what worked well in Mongock, but designed for a broader scope.
 
-We are the original authors of Mongock. Over the past couple of years, we've been heads‑down building **[Flamingock](https://github.com/flamingock/flamingock-java)** — a platform inspired by what worked in Mongock, but with a much broader scope: **auditable, deterministic evolution across your entire system**. (A managed cloud offering is also in the works.)
+Mongock helped teams evolve NoSQL databases safely. Flamingock takes that idea further: auditable, deterministic evolution across your entire system.
 
-- Robust support for MongoDB and NoSQL migrations, covering everything previously offered by Mongock
-- Extends beyond databases to orchestrate changes across message queues, contracts, APIs, configs, feature flags, and more
-- Designed **from the ground up with auditability, determinism, and governance at its core**
+Flamingock supports the core MongoDB and NoSQL migration use cases Mongock was known for, while also extending change orchestration beyond databases to areas such as message queues, events, contracts, APIs, configs, feature flags, and more.
 
-### More highlights
-- Flexible/low‑code templates for defining changes
-- Native GraalVM support
-- Advanced multi-stage workflows
-- …and more in the docs → [Overview](https://docs.flamingock.io/get-started/Introduction)
+It also introduces stronger foundations for operational safety, including improved failure handling, recovery, retries, rollback support, and execution visibility.
 
-> Same creators. Broader scope. Better foundations.
-
-👉 **Start here:** [Flamingock repository](https://github.com/flamingock/flamingock-java)
+A Flamingock Cloud offering is also in progress, focused on giving teams a central control plane to monitor executions, inspect audit history, manage environments, understand failures, and govern changes across services and systems.
 
 ---
 
 ## Why the change?
+Real-world systems rarely evolve in one place only.
 
-Mongock helped teams evolve NoSQL databases with confidence.  
-But in real-world systems, evolution doesn't stop at databases — it extends to message schemas, APIs, configurations, feature flags, and compliance rules.
+Database migrations are still important, but modern applications also require coordinated changes across services, infrastructure, events, APIs, configuration, and operational rules.
 
-**Flamingock was built to support that full spectrum from day one.**  
-It’s not a direct continuation of Mongock, but a new platform that also does everything Mongock did — and much more.
+**Flamingock was built to support that broader model from day one.**
 
+It is not a drop-in continuation of Mongock. It is a new platform, built by the same team, carrying forward Mongock’s core migration ideas while expanding them into system-wide change orchestration with stronger auditability, safer recovery, and better operational control.
+
+---
+
+## Flamingock highlights
+- Robust support for MongoDB and NoSQL migrations, covering everything previously offered by Mongock
+- Designed **from the ground up with auditability, determinism, and governance at its core**
+- Auditable and deterministic change execution
+- Improved failure handling and recovery
+- Retry, rollback, and operational safety mechanisms
+- Multi-stage workflows
+- Flexible/low‑code templates for defining changes
+- Native GraalVM support
+- Cloud control plane for monitoring, audit history, environments, failures, and team governance
+
+
+Learn more in the docs → [Overview](https://docs.flamingock.io/get-started/Introduction)
+
+> Same creators. Broader scope. Better foundations.
+
+👉[start here](https://github.com/flamingock/flamingock-java)
 ---
 
 ## What about existing Mongock users?
