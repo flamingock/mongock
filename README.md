@@ -46,7 +46,8 @@ Learn more in the docs → [Overview](https://docs.flamingock.io/get-started/Int
 
 > Same creators. Broader scope. Better foundations.
 
-👉[start here](https://github.com/flamingock/flamingock-java)
+👉 [start here](https://github.com/flamingock/flamingock-java)
+
 ---
 
 ## What about existing Mongock users?
