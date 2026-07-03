@@ -31,15 +31,17 @@ We are the original authors of Mongock.
 
 Over the past couple of years, we have been building **[Flamingock](https://github.com/flamingock/flamingock-java)**: a new platform inspired by what worked well in Mongock, but designed for a broader scope.
 
-Mongock helped teams evolve NoSQL databases safely. Flamingock takes that idea further: **auditable, deterministic evolution across your entire system**.
+Mongock helped teams evolve NoSQL databases safely. But real-world systems rarely evolve in one place only. Database migrations are still important, but modern applications often require coordinated changes across services, infrastructure, events, APIs, configuration, feature flags, and operational rules.
 
-That means not only databases, but also message queues, events, contracts, APIs, configs, feature flags, cloud resources, and more.
+Flamingock was built to support that broader model from day one: **auditable, deterministic evolution across your entire system**.
+
+It is not a drop-in continuation of Mongock. It is a new platform, built by the same team, carrying forward Mongock’s core migration ideas while expanding them into system-wide change orchestration.
 
 > Same creators. Broader scope. Better foundations.
 
 ---
 
-## Why Flamingock?
+## Flamingock highlights
 
 Flamingock supports the core MongoDB and NoSQL migration use cases Mongock was known for, while introducing stronger foundations for modern systems:
 
@@ -51,17 +53,7 @@ Flamingock supports the core MongoDB and NoSQL migration use cases Mongock was k
 - Native GraalVM support
 - Flexible/low-code templates for defining changes
 
----
-
-## Why the change?
-
-Real-world systems rarely evolve in one place only.
-
-Database migrations are still important, but modern applications often require coordinated changes across services, infrastructure, events, APIs, configuration, and operational rules.
-
-**Flamingock was built to support that broader model from day one.**
-
-It is not a drop-in continuation of Mongock. It is a new platform, built by the same team, carrying forward Mongock’s core migration ideas while expanding them into system-wide change orchestration.
+Learn more in the docs → [Flamingock Overview](https://docs.flamingock.io/get-started/Introduction)
 
 ---
 
