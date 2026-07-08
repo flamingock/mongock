@@ -1,7 +1,7 @@
-# ⚠️ Mongock is Deprecated
+# ⚠️ Mongock is sunsetting
 
-**Status:** Mongock is no longer actively maintained as of **2026-07-01**.  
-No new features will be added. Critical security fixes may be considered on a best-effort basis only.
+**Status:** Mongock is now in maintenance mode from  and reaching **end-of-life at the end of 2026**.  
+No new features will be added. critical bug fixes and security updates only.
 
 Existing Mongock versions will continue to work as they do today, but we recommend using **[Flamingock](https://github.com/flamingock/flamingock-java)** for new projects and future development.
 
@@ -15,13 +15,12 @@ Your current Mongock versions will keep working as-is.
 
 When you are ready to move to Flamingock, the migration path is intentionally simple. Flamingock was designed so that your existing change units can remain untouched. In most cases, the transition only requires a couple of small configuration changes.
 
-We have also created an Agent skill to help guide and automate parts of the migration process.
-
 - Your current Mongock versions will keep working as-is.
 - You do not need to rewrite your existing changes.
 - Migration mainly involves a few configuration updates.
-- An Agent skill is available to help with the transition.
 - Upgrade help: [How to move from Mongock to Flamingock](https://docs.flamingock.io/resources/coming-from-mongock)
+
+> We have also created an Agent skill to help guide and automate parts of the migration process.
 
 ---
 
