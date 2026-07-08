@@ -1,7 +1,8 @@
 # ⚠️ Mongock is sunsetting
 
-**Status:** Mongock is now in maintenance mode from  and reaching **end-of-life at the end of 2026**.  
-No new features will be added. critical bug fixes and security updates only.
+Status: **Mongock is now in maintenance mode from  and reaching end-of-life at the end of 2026**.  
+
+> No new features will be added. critical bug fixes and security updates only.
 
 Existing Mongock versions will continue to work as they do today, but we recommend using **[Flamingock](https://github.com/flamingock/flamingock-java)** for new projects and future development.
 
